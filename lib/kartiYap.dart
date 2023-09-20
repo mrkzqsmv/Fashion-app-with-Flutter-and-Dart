@@ -66,7 +66,7 @@ class _KartiYapState extends State<KartiYap> {
             const SizedBox(
               width: 10,
             ),
-            Container(
+            SizedBox(
               width: MediaQuery.of(context).size.width - 160,
               child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -271,7 +271,7 @@ class _KartiYapState extends State<KartiYap> {
               '325',
               style: TextStyle(fontSize: 16),
             ),
-            Container(
+            SizedBox(
               width: MediaQuery.of(context).size.width - 235,
               child: const Row(
                 mainAxisAlignment: MainAxisAlignment.end,

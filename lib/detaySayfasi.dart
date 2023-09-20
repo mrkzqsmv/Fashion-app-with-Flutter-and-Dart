@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class DetaySayfasi extends StatefulWidget {
   var resminYolu;
 
-  DetaySayfasi({this.resminYolu});
+  DetaySayfasi({super.key, this.resminYolu});
 
   @override
   State<DetaySayfasi> createState() => _DetaySayfasiState();
@@ -81,9 +82,9 @@ class _DetaySayfasiState extends State<DetaySayfasi> {
                           const SizedBox(
                             height: 10,
                           ),
-                          Container(
+                          SizedBox(
                             width: MediaQuery.of(context).size.width - 170,
-                            height: 30,
+                            height: 40,
                             child: const Text(
                               'One button V-neck sling long-sleeved waist female stitching dress',
                               style: TextStyle(
@@ -115,8 +116,8 @@ class _DetaySayfasiState extends State<DetaySayfasi> {
                             onPressed: () {
                               print('hello');
                             },
-                            child: Icon(Icons.arrow_forward_ios),
                             backgroundColor: Colors.brown,
+                            child: const Icon(Icons.arrow_forward_ios),
                           ),
                         ),
                       ],
@@ -136,10 +137,10 @@ class _DetaySayfasiState extends State<DetaySayfasi> {
                 color: Colors.black.withOpacity(0.4),
                 borderRadius: BorderRadius.circular(8),
               ),
-              child: Row(
+              child: const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  const Center(
+                  Center(
                     child: Text(
                       'LAMINATED',
                       style: TextStyle(
