@@ -174,7 +174,7 @@ class _KartiYapState extends State<KartiYap> {
                     Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (context) => DetaySayfasi(
-                          resminYolu: 'assets/images/modelgrid2.jpeg',
+                          resminYolu: 'assets/images/modelgrid3.jpeg',
                         ),
                       ),
                     );
