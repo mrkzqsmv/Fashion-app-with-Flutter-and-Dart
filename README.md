@@ -1,3 +1,1 @@
-# fashion_app_flutter
-
-A new Flutter project.
+# Fashion app with Flutter and Dart
